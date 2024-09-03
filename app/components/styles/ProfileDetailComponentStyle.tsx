@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
         borderWidth: 0.2,
         borderColor: colors.opacity,
         paddingVertical: 15,
+        marginVertical: 10,
     },
     bioContainer: {
         paddingHorizontal: 15,
