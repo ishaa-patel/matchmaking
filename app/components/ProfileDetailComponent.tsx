@@ -31,6 +31,10 @@ const ProfileDetailComponent = () => {
                         <MaterialIcons name="liquor" size={20} color={colors.neutral} />}
                         style={colors.gray}
                     />
+                    <InfoButton label={constants.ARTIST} icon={
+                        <MaterialIcons name="art-track" size={20} color={colors.neutral} />}
+                        style={colors.gray}
+                    />
                     <InfoButton label={constants.SOMETIMES} icon={
                         <MaterialIcons name="smoking-rooms" size={20} color={colors.neutral} />}
                         style={colors.gray}

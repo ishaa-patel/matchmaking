@@ -14,8 +14,12 @@ export const styles = StyleSheet.create({
     img: {
         width: windowWidth - 20,
         height: windowWidth - 15,
-        justifyContent: 'flex-end',
         paddingBottom: 8,
+    },
+    carouselSlides: {
+        top: 20,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
     },
     name: {
         color: colors.white,
@@ -23,6 +27,9 @@ export const styles = StyleSheet.create({
         fontSize: 28,
         fontWeight: '700',
         letterSpacing: 1,
+    },
+    profileInfo: {
+        top: 250,
     },
 }
 );

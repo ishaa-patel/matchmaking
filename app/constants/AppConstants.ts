@@ -20,6 +20,7 @@ const constants = {
     TAURUS: 'Taurus',
     NEVER: 'Never',
     SOMETIMES: 'Sometimes',
+    ARTIST: 'Artist',
 
     DISTANCE: '2km away',
     LEVEL: 'Level 3',
