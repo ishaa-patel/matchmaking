@@ -8,5 +8,6 @@ const images = {
     arrowStar: require('./arrow-star.png'),
     miniArrowStar: require('./mini-arrow-star.png'),
     carouselImg: require('./carousel-img.png'),
+    splashImg: require('./splash.png'),
 };
 export default images;
