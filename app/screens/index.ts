@@ -1,3 +1,4 @@
 import MatchSuccessScreen from './MatchSuccessScreen';
 import ProfileScreen from './ProfileScreen';
-export { MatchSuccessScreen, ProfileScreen };
+import SplashScreen from './SplashScreen';
+export { MatchSuccessScreen, ProfileScreen, SplashScreen };

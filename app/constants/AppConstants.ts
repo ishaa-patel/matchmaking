@@ -1,6 +1,7 @@
 const constants = {
     //NAV
     NAV_PROFILE: 'Profile',
+    NAV_SPLASH: 'Splash',
     NAV_MATCHSUCCESS: 'Match_Success',
     CONGRATS: 'Congratulations!',
     MATCHED_PROFILE: 'You and nancy liked each other',
