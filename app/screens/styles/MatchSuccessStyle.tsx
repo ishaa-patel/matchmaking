@@ -16,7 +16,5 @@ export const styles = StyleSheet.create({
         width: windowWidth,
         backgroundColor: colors.bgOpacity,
     },
-    btnAlign: {
-    },
 }
 );
