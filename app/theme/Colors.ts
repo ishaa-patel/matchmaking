@@ -6,6 +6,7 @@ const colors = {
     placeHolder: '#a0a0a0',
     primary: 'rgba(255, 255, 255, 0.44)',
     opacity: 'rgba(52, 52, 52, 0.5)',
+    bgOpacity: 'rgba(0,0,0, 0.4)',
     btnColor: '#736CD3',
     borderColor: '#3CC4B0',
     gray: '#30303040',

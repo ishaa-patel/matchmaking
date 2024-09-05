@@ -2,9 +2,8 @@ import { StyleSheet } from 'react-native';
 import { colors } from '../../theme';
 export const styles = StyleSheet.create({
     greetContainer: {
-        position: 'absolute',
-        top: 575,
-        gap: 5,
+        marginVertical: 30,
+        gap: 6,
     },
     greetText: {
         fontWeight: 'bold',
@@ -14,12 +13,10 @@ export const styles = StyleSheet.create({
         color: colors.white,
     },
     matchedText: {
+        color: colors.primary,
         fontWeight: '500',
         fontSize: 15,
         lineHeight: 23,
         opacity: 0.8,
-    },
-    profileBtn: {
-        top: 670,
     },
 });

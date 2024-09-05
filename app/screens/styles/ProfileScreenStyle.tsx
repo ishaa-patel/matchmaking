@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
     btnAlign: {
         alignSelf: 'center',
         position: 'absolute',
-        top: '92%',
+        bottom: 10,
     },
 }
 );
