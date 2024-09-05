@@ -4,7 +4,7 @@ import BottomComponent from './BottomComponent';
 import InfoButton from './InfoButton';
 import CommonInterestComponent from './CommonInterestComponent';
 import ProfileDetailComponent from './ProfileDetailComponent';
-import ProfileCarouselComponent from './ProfileCarouselComponent';
+import ProfileComponent from './ProfileComponent';
 
 export {
     CustomButton,
@@ -13,5 +13,5 @@ export {
     InfoButton,
     CommonInterestComponent,
     ProfileDetailComponent,
-    ProfileCarouselComponent,
+    ProfileComponent,
 };

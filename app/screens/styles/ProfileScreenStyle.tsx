@@ -8,7 +8,6 @@ export const styles = StyleSheet.create({
     subContainer: {
         paddingVertical: 10,
         alignItems: 'center',
-        justifyContent: 'space-between',
     },
     btnAlign: {
         alignSelf: 'center',

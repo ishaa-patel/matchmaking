@@ -13,15 +13,11 @@ export const styles = StyleSheet.create({
     },
     bioContainer: {
         paddingHorizontal: 15,
-        paddingBottom: 5,
+        marginBottom: 10,
     },
     aboutMeContainer: {
-        paddingHorizontal: 15,
-    },
-    subContainer: {
+        paddingHorizontal: 8,
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        paddingVertical: 10,
         flexWrap: 'wrap',
     },
     title: {

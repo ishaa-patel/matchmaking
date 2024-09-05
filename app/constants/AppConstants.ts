@@ -25,6 +25,9 @@ const constants = {
     DISTANCE: '2km away',
     LEVEL: 'Level 3',
     STATUS: 'Long-Term',
+
+    GO_TO_PROFILE: 'Go to profile',
+    SEND_MESSAGE: 'Send Message',
 };
 
 export default constants;
