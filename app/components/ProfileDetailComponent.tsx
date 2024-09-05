@@ -5,6 +5,7 @@ import { Text, View } from 'react-native';
 import InfoButton from './InfoButton';
 import { colors } from '../theme';
 import constants from '../constants/AppConstants';
+import { profile } from '../slides/imgSlides';
 const ProfileDetailComponent = () => {
     return (
         <View style={styles.container}>
@@ -12,34 +13,17 @@ const ProfileDetailComponent = () => {
                 <Text style={styles.title}>{constants.BIO}</Text>
                 <Text style={styles.userBio}>{constants.BIO_DETAIL}</Text>
             </View>
+            <Text style={[styles.title, {
+                paddingHorizontal: 15,
+                paddingBottom: 5,
+            }]}>{constants.ABOUT_ME}</Text>
             <View style={styles.aboutMeContainer}>
-                <Text style={styles.title}>{constants.ABOUT_ME}</Text>
-                <View style={styles.subContainer}>
-                    <InfoButton label={constants.WOMAN} icon={
-                        <MaterialIcons name="woman" size={20} color={colors.neutral} />}
-                        style={colors.gray}
+                {profile[0].aboutMe.map((_, i) => (
+                    <InfoButton label={profile[0].aboutMe[i]} icon={
+                        <MaterialIcons name="add-reaction" size={20} color={colors.neutral} />}
+                        style={colors.gray} txtColor={colors.black}
                     />
-                    <InfoButton label={constants.HINDU} icon={
-                        <MaterialIcons name="temple-hindu" size={20} color={colors.neutral} />}
-                        style={colors.gray}
-                    />
-                    <InfoButton label={constants.TAURUS} icon={
-                        <MaterialIcons name="looks" size={20} color={colors.neutral} />}
-                        style={colors.gray}
-                    />
-                    <InfoButton label={constants.NEVER} icon={
-                        <MaterialIcons name="liquor" size={20} color={colors.neutral} />}
-                        style={colors.gray}
-                    />
-                    <InfoButton label={constants.ARTIST} icon={
-                        <MaterialIcons name="art-track" size={20} color={colors.neutral} />}
-                        style={colors.gray}
-                    />
-                    <InfoButton label={constants.SOMETIMES} icon={
-                        <MaterialIcons name="smoking-rooms" size={20} color={colors.neutral} />}
-                        style={colors.gray}
-                    />
-                </View>
+                ))}
             </View>
         </View >
     );
