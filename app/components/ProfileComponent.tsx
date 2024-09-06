@@ -4,7 +4,7 @@ import { profile } from '../slides/imgSlides';
 import ItemComponent from './ItemComponent';
 import { styles } from './styles/ProfileComponentStyle';
 import { colors } from '../theme';
-import InfoButton from './InfoButton';
+import InfoButton from './ProfileInfoButton';
 
 const ProfileComponent = () => {
     const [index, setIndex] = useState(Number);

@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
         height: 40,
         width: 40,
         top: 5,
-        right: 125,
+        right: 120,
         zIndex: 2,
     },
     femaleImg: {
@@ -37,8 +37,8 @@ export const styles = StyleSheet.create({
         width: 50,
         height: 50,
         position: 'absolute',
-        bottom: 180,
-        left: 275,
+        bottom: 170,
+        right: 45,
     },
     arrowStar: {
         width: 55,

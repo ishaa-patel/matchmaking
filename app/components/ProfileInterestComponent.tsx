@@ -1,12 +1,12 @@
 import React from 'react';
-import { styles } from './styles/CommonInterestStyle';
+import { styles } from './styles/ProfileInterestStyle';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { Text, View } from 'react-native';
-import InfoButton from './InfoButton';
+import InfoButton from './ProfileInfoButton';
 import { colors } from '../theme';
 import constants from '../constants/AppConstants';
 import { profile } from '../slides/imgSlides';
-const CommonInterestComponent = () => {
+const ProfileInterestComponent = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.interestTitle}>{constants.COMMON_INTEREST}</Text>
@@ -20,4 +20,4 @@ const CommonInterestComponent = () => {
         </View>
     );
 };
-export default CommonInterestComponent;
+export default ProfileInterestComponent;

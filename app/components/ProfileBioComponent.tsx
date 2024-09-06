@@ -1,12 +1,12 @@
 import React from 'react';
-import { styles } from './styles/ProfileDetailComponentStyle';
+import { styles } from './styles/ProfileBioComponentStyle';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { Text, View } from 'react-native';
-import InfoButton from './InfoButton';
+import InfoButton from './ProfileInfoButton';
 import { colors } from '../theme';
 import constants from '../constants/AppConstants';
 import { profile } from '../slides/imgSlides';
-const ProfileDetailComponent = () => {
+const ProfileBioComponent = () => {
     return (
         <View style={styles.container}>
             <View style={styles.bioContainer}>
@@ -28,4 +28,4 @@ const ProfileDetailComponent = () => {
         </View >
     );
 };
-export default ProfileDetailComponent;
+export default ProfileBioComponent;

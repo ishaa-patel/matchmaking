@@ -1,17 +1,15 @@
 import CustomButton from './CustomButton';
-import CenterComponent from './CenterComponent';
-import BottomComponent from './BottomComponent';
-import InfoButton from './InfoButton';
-import CommonInterestComponent from './CommonInterestComponent';
-import ProfileDetailComponent from './ProfileDetailComponent';
+import MatchSuccessComponent from './MatchSuccessComponent';
+import ProfileInfoButton from './ProfileInfoButton';
+import ProfileInterestComponent from './ProfileInterestComponent';
+import ProfileBioComponent from './ProfileBioComponent';
 import ProfileComponent from './ProfileComponent';
 
 export {
     CustomButton,
-    CenterComponent,
-    BottomComponent,
-    InfoButton,
-    CommonInterestComponent,
-    ProfileDetailComponent,
+    MatchSuccessComponent,
+    ProfileInfoButton,
+    ProfileInterestComponent,
+    ProfileBioComponent,
     ProfileComponent,
 };
